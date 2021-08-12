@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.body{
+    color: #444;
+    font-family: Roboto;
+    padding: 50px;
+    background: whitesmoke;
+    height: 100vh;
+    display: flex;
+    align-items: center; /*   CROSS AXIS */
+    justify-content: center; /*   // MAIN AXIS */
+  }
+  .box {
+    max-width: 1000px;
+    border-radius: 30px;
+    box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+    margin: 70px 5px 5px 180px;
+  
+    display: flex;
+    align-items: stretch;
+  }
+  .burger_img {
+    flex: 8;
+  }
+  .burger_image{
+      width: 100%;
+      display: block;
+  }
+  .burger_content {
+    flex: 1;
+    background:rgb(255, 255, 255);
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .burger_price {
+    flex: 2;
+    background: linear-gradient(#e66465, #9198e5);
+    writing-mode: vertical-text;
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .burger_Title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .burger_Heading {
+    font-size: 20px;
+    margin-right: auto;
+  }
+  
+  .burger_tag {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    padding: 2px 7px;
+    border-radius: 100px;
+    margin-left: 7px;
+  }
+  
+  .burger_tag {
+    background-color: #67b26f;
+  }
+  .burger_tag_tag {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    padding: 2px 7px;
+    border-radius: 100px;
+    margin-left: 7px;
+  }
+  .burger_tag_tag{
+    background-color: #4ca2cd;
+  }
+  
+  .burger_description {
+    font-size: 54px;
+    color:red;
+    font-weight: 600;
+  }
+  
+  .burger_details {
+    display: flex;
+    margin-top:auto;
+    
+  }
+  
+  .burger_detail {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 0px;
+    font-weight: 700;
+  
+    display: flex;
+    align-items:flex-end;
+    
+  }
+  
+  .emoji {
+    font-size: 20px;
+    margin-right: 3px;
+  }
